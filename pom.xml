@@ -6,7 +6,7 @@
     <parent>
         <groupId>io.helidon.applications</groupId>
         <artifactId>helidon-mp</artifactId>
-        <version>4.0.0-ALPHA3</version>
+        <version>4.0.0-ALPHA4</version>
         <relativePath/>
     </parent>
     <groupId>io.helidon</groupId>
