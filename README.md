@@ -1,22 +1,25 @@
-# Helidon 4.0.0.-ALPHA3 QuickStart Example
+# Helidon 4.0.0.-ALPHA4 QuickStart Example
 
 Minimal Helidon MP project suitable to start from scratch.
-Running on Helidon Níma using Virtual Threads.
+Running on Helidon Níma using Virtual Threads. (JDK19+ required)
 
 ## Build and run
 
-
-With JDK17+
+With JDK20+
 ```bash
 mvn package
 java -jar target/quickstart.jar
 ```
 
+With JDK19
+```bash
+mvn package
+java --enable-preview -jar target/quickstart.jar
+```
+
+
+
 ## Exercise the application
-```
-curl -X GET http://localhost:8080/simple-greet
-{"message":"Hello World!"}
-```
 
 ```
 curl -X GET http://localhost:8080/greet
